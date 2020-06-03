@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1200px;
+  border: 5px solid red;
+}
+p {
+  font-family: 'Josefin Sans';
+  font-size: 12px;
+  color: #222;
+}
+.kezdet {
+  border: 1px solid yellow;
+  padding-left: 25%;
+  padding-right: 25%;
+  margin-bottom: 60px;
+  line-height: 2;
+}
+.kezdet li {
+  font-size: 15px;
+}
+.kezdet p {
+  font-size: 15px;
+}
+.banner {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  padding: 0px;
+  margin-bottom: 60px;
+}
+.kisebb {
+  position: absolute;
+  bottom: 120px;
+  left: 290px;
+  margin: 0px;
+  text-align: left;
+  
+  font-family: 'Abril Fatface';
+  color: #222;
+  font-size: 35px;
+}
+.nagyobb {
+  position: absolute;
+  bottom: 40px;
+  left: 290px;
+  margin: 0px;
+  text-align: left;
+  
+  font-family: 'Abril Fatface';
+  color: #222;
+  font-size: 70px;
+}
+.anakin {
+	width: 100%;
+  text-align: center;
+}
+.main_content {
+  border: 1px solid green;
+  line-height: 2;
+} 
+h2 {
+  text-transform: uppercase;
+  font-family: 'Josefin Sans';
+  font-size: 20px;
+  color: #222;
+}
+h3 {
+  font-family: 'Josefin Sans';
+  font-size: 20px;
+  color: #222;
+  font-weight: bold;
+}
+.idezet {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 0px;
+  padding-top: 0px;
+  border: 2px solid red;
+  position: relative;
+}
+blockquote::before {
+  position: absolute;
+  bottom: -32px;
+  color: red;
+  content: '“';
+  font-size: 2em;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+blockquote {
+  font-family: 'Abril Fatface';
+  font-size: 40px;
+  color: white;
+  background: #222;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+li {
+  list-style-type: square;
+  font-family: 'Josefin Sans';
+  color: #222;
+  font-size: 12px;
+}
+.subtitles {
+  font-family: 'Merriweather';
+  font-size: 15px;
+  font-weight: bold;
+  color: #222;
+}
